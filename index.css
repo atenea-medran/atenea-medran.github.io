@@ -4,10 +4,11 @@ body {
 
 #headerImg {
     margin-top: 20px;
+    height: 100px;
 }
 
 #projects {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
