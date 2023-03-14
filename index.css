@@ -17,11 +17,17 @@ p {
 
 iframe {
     margin-bottom: 50px;
+    width: 560px;
+    height: 315px;
 }
 
 #headerImg {
     margin-top: 20px;
     height: 130px;
+}
+
+#graphsImg {
+    width: 560px;
 }
 
 #projects {
