@@ -5,7 +5,7 @@ body {
 div {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 800px;
     text-align: center;
     text-justify: distribute;
 }
@@ -21,7 +21,7 @@ iframe {
 
 #headerImg {
     margin-top: 20px;
-    height: 100px;
+    height: 130px;
 }
 
 #projects {
