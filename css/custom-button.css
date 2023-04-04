@@ -1,0 +1,23 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .btn-responsive {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .btn-responsive {
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .btn-responsive {
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+    }
+  }
