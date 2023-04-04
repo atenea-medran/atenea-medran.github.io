@@ -10,60 +10,55 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index-bootstrap.css">
+    <link rel="stylesheet" href="css/index-bootstrap.css">
+    <link rel="stylesheet" href="css/custom-button.css">
 </head>
 
 <body>
-    <header class="header-area">
-        <div id="menu-area">
-            <div class="container">
-                <div class="menu">
-                    <div class="row">
-                        <div class="col-8 col-sm-10 col-md-8 col-xl-3 offset-lg-1 offset-xl-1">
-                            <div class="logo">
-                                <a href="https://atenea-medran.github.io/">
-                                    <img id="logo-name-img" src="img/logo-name.png" alt="logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-3 col-sm-2 col-xl-3 d-lg-none d-xl-none">
-                            <div class="dropdown">
-                                <button id="dropdown-button" class="btn btn-primary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Projects
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown-button">
-                                    <li><a class="dropdown-item" href="historico-precio-luz.html">Ktor Web App</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="python-scrypt-automation.html">Python Script
-                                            Automation</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="telegram-bot.html">Telegram Bot</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="twitter-data-analysis.html">Twitter Data
-                                            Analysis</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="files-exercise.html">Files Exercise Java</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="classes-exercise.html">Classes Exercise Java</a>
-                                    </li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="functional-programming-exercise.html">Functional
-                                            Programming
-                                            Java</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="json-exercise.html">Json Exercise Java</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-6 offset-lg-1">
+                <div class="logo">
+                    <a href="https://atenea-medran.github.io/">
+                        <img id="logo-name-img" src="img/logo-name.png" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-3 d-lg-none offset-1 my-auto">
+                <div class="dropdown">
+                    <button id="dropdown-button" class="btn btn-primary dropdown-toggle btn-responsive" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                    </button>
+                    <ul class="dropdown-menu py-0" aria-labelledby="dropdown-button">
+                        <li><a class="dropdown-item" href="proyecto-final-eoi.html">Final Project EOI</a></li>
+                        <li><a class="dropdown-item custom-divider" href="historico-precio-luz.html">Ktor Web App</a>
+                        </li>
+                        <li><a class="dropdown-item custom-divider" href="python-scrypt-automation.html">Python Script
+                                Automation</a></li>
+                        <li><a class="dropdown-item custom-divider" href="telegram-bot.html">Telegram Bot</a></li>
+                        <li><a class="dropdown-item custom-divider" href="twitter-data-analysis.html">Twitter Data
+                                Analysis</a></li>
+                        <li><a class="dropdown-item custom-divider" href="files-exercise.html">Files Exercise Java</a>
+                        </li>
+                        <li><a class="dropdown-item custom-divider" href="classes-exercise.html">Classes Exercise
+                                Java</a></li>
+                        <li><a class="dropdown-item custom-divider"
+                                href="functional-programming-exercise.html">Functional Programming Java</a></li>
+                        <li><a class="dropdown-item custom-divider" href="json-exercise.html">Json Exercise Java</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <div class="container">
         <div class="row justify-content-center">
             <div id="index" class="col d-none col-lg-3 d-lg-block">
+                <a class="card" href="proyecto-final-eoi.html">
+                    Final Project EOI
+                </a>
                 <a class="card" href="historico-precio-luz.html">
                     Ktor Web App
                 </a>
@@ -89,7 +84,7 @@
                     Json Exercise Java
                 </a>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+            <div class="col-12 col-lg-7">
                 <div id="main">
                     <h3>Telegram bot to download multiple images</h3>
                     <p>I created a Telegram bot using Python to download multiple images because the Android Telegram
@@ -114,10 +109,12 @@
                             </p>
                         </a>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/jNR3Qna0I9k" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    </p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/jNR3Qna0I9k" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
